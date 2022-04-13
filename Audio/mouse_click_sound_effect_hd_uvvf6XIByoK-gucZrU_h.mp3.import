@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mouse_click_sound_effect_hd_uvvf6XIByoK-gucZrU_h.mp3-6f33b8b53410bc9aa5a72293aec6c751.mp3str"
+
+[deps]
+
+source_file="res://Audio/mouse_click_sound_effect_hd_uvvf6XIByoK-gucZrU_h.mp3"
+dest_files=[ "res://.import/mouse_click_sound_effect_hd_uvvf6XIByoK-gucZrU_h.mp3-6f33b8b53410bc9aa5a72293aec6c751.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

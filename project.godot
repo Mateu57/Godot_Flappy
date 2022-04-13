@@ -1,0 +1,40 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="FlappyBird"
+run/main_scene="res://Menu/Menu.tscn"
+config/icon="res://icon.png"
+
+[audio]
+
+default_bus_layout="res://Audio/default_bus_layout.tres"
+
+[autoload]
+
+GlobalAudioStream="*res://Audio/AudioStream.tscn"
+
+[display]
+
+window/size/width=480
+window/size/height=854
+
+[input]
+
+Left_Mouse={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+
+[physics]
+
+common/enable_pause_aware_picking=true
